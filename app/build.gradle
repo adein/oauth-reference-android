@@ -39,7 +39,7 @@ android {
                     'redirect_uri'         : redirectUri,
                     'appAuthRedirectScheme': "YOUR_REDIRECT_SCHEME"
             ]
-            buildConfigField "String", 'OAUTH_CLIENT_ID', '\"YOUR-CLIENT-ID\"'
+            buildConfigField "String", 'OAUTH_CLIENT_ID', '"YOUR-CLIENT-ID"'
             buildConfigField "String", 'OAUTH_REDIRECT_URI', "\"${redirectUri}\""
             buildConfigField "String", 'OAUTH_AUTHORIZATION_ENDPOINT_URI', "\"YOUR_AUTH_ENDPOINT\""
             buildConfigField "String", 'OAUTH_TOKEN_ENDPOINT_URI', "\"YOUR_TOKEN_ENDPOINT\""
