@@ -1,2 +1,2 @@
-# oauth-reference-android
+# OAuth Reference App for Android
 
